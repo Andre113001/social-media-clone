@@ -25,7 +25,7 @@ function Post({post}) {
                         <span className="post-date">{post.date}</span>
                     </div>
                     <div className="post-top-right">
-                        <MoreVert />
+                        <MoreVert className='post-top-more' />
                     </div>
                 </div>
                 <div className="post-center">
