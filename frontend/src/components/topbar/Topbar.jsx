@@ -5,6 +5,7 @@ function Topbar() {
   return (
     <div className='topbar-container'>
       <div className="topbar-left">
+        <img className='logo-img' src="./src/assets/Leapod Logo.jpg" alt="" />
         <span className='logo'>Leapod</span>
       </div>
       <div className="topbar-center">
@@ -21,15 +22,15 @@ function Topbar() {
         <div className="topbar-icons">
             <div className="topbar-icon-item">
                 <Person />
-                <span className="topbar-icon-badge">1</span>
+                <span className="topbar-icon-badge"></span>
             </div>
             <div className="topbar-icon-item">
                 <Chat />
-                <span className="topbar-icon-badge">2</span>
+                <span className="topbar-icon-badge"></span>
             </div>
             <div className="topbar-icon-item">
                 <Notifications />
-                <span className="topbar-icon-badge">1</span>
+                <span className="topbar-icon-badge"></span>
             </div>
         </div>
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Festival_des_Vieilles_Charrues_2018_-_Liam_Gallagher_-_013.jpg" alt="" className="topbar-img" />
